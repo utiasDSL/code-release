@@ -1,6 +1,6 @@
 # code-release
 
-This repository contains all the data and plotting scripts required to reproduce the plots in our paper "What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"(http://)
+This repository contains all the data and plotting scripts required to reproduce the plots in our paper ["What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"](http://tbd)
 
 ## Installation
 
