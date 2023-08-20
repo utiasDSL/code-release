@@ -1,6 +1,6 @@
 # code-release
 
-This repository contains all the data and plotting scripts required to reproduce the plots in our paper "What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Community"(http://)
+This repository contains all the data and plotting scripts required to reproduce the plots in our paper "What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"(http://)
 
 ## Installation
 
@@ -59,7 +59,7 @@ Please cite our work [(link)](https://) as:
 
 ```bibtex
 @INPROCEEDINGS{oscrelease2023,
-      title={What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Community}, 
+      title={What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities}, 
       author={Siqi Zhou and Lukas Brunke and Allen Tao and Adam W. Hall and Federico Pizarro Bejarano and Jacopo Panerati and Angela P. Schoellig},
       booktitle={TBD},
       year={2023},
