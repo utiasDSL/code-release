@@ -1,6 +1,6 @@
 # code-release
 
-This repository contains all the data and plotting scripts required to repoduce the plots in our paper [*TBD Title*](http://)
+This repository contains all the data and plotting scripts required to reproduce the plots in our paper "What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Community"(http://)
 
 ## Installation
 
@@ -13,7 +13,7 @@ pip3 install tikzplotlib
 pip3 install matplotlib --upgrade
 ```
 
-This was tested on macOS 13.3 with:
+This was tested on macOS 13.3 with the following:
 
 ```sh
 anaconda                  2022.10  
@@ -29,8 +29,8 @@ tikzplotlib               0.10.1
 Clone this repository and run its `main.py` script:
 
 ```sh
-git clone https://github.com/utiasDSL/TBD.git
-cd TBD/
+git clone https://github.com/utiasDSL/code-release.git
+cd code-release/
 python3 main.py
 ```
 
@@ -58,9 +58,9 @@ Our determination of available open-source code for publications is not perfect.
 Please cite our work [(link)](https://) as:
 
 ```bibtex
-@INPROCEEDINGS{tbd,
-      title={TBD}, 
-      author={Name Surname and Angela P. Schoellig},
+@INPROCEEDINGS{oscrelease2023,
+      title={What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Community}, 
+      author={Siqi Zhou and Lukas Brunke and Allen Tao and Adam W. Hall and Federico Pizarro Bejarano and Jacopo Panerati and Angela P. Schoellig},
       booktitle={TBD},
       year={2023},
       volume={},
