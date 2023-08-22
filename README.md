@@ -1,6 +1,6 @@
 # code-release
 
-This repository contains all the data and plotting scripts required to reproduce the plots in our paper ["What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"](http://tbd)
+This repository contains all the data and plotting scripts required to reproduce the plots in our paper ["What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"](https://arxiv.org/abs/2308.10008)
 
 ## Installation
 
@@ -55,7 +55,7 @@ Our determination of available open-source code for publications is not perfect.
 
 ## Citation
 
-Please cite our work [(link)](https://) as:
+Please cite our work [(link)](https://arxiv.org/abs/2308.10008) as:
 
 ```bibtex
 @INPROCEEDINGS{oscrelease2023,
