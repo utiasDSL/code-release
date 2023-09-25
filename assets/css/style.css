@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #7fcf69;
+  color: #eff4ef;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+button:hover {
+  background-color: #7fcf69;
+}
+
+.pr-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: small;
+  background-color: #7bc567;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-align: right;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.pr-button:hover {
+  background-color: #7fcf80;
+}
+
+.pr-button:focus {
+  outline: none;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #7fcf69;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdowns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.dropdown-container label {
+  margin-right: 5px;
+}
+
+#btn {
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.tab-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+  text-align: left;
+}
+
+#back-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#back-to-top-button:hover {
+  background-color: #333;
+}
+
+.sortable-header {
+  cursor: pointer;
+}

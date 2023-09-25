@@ -1,0 +1,74 @@
+<html>
+<head>
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.1.0/dist/markdown-it.min.js"></script>
+   
+   <script src="assets/js/table.js"></script>
+   <script src="assets/js/readme.js"></script>
+
+</head>
+
+<body>
+   <!-- Navigate between tabs -->
+   <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+      <a class="nav-link active" id="readme-tab" data-toggle="tab" href="#readme" role="tab" aria-controls="readme" aria-selected="true">README</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" id="table-tab" data-toggle="tab" href="#table" role="tab" aria-controls="table" aria-selected="false" onclick="convert()">Table</a>
+      </li>
+   </ul>
+   
+   <!-- Tab panes -->
+   <div class="tab-content">
+      <div class="tab-pane fade show active" id="readme" role="tabpanel" aria-labelledby="readme-tab">
+
+         <article class="markdown-body"></article>
+         
+      </div>
+
+      <br>
+      
+      <div class="tab-pane fade" id="table" role="tabpanel" aria-labelledby="table-tab">
+         <h2>Learning Systems and Robotics Lab: Open-Source Code Availability for Publications</h2>
+         <p>We have different datasets available. Select the one you would like to view</p>
+      
+         <div class="dropdowns-container">
+            <div class="dropdown-container">
+               <label for="conference-select">Select a conference:</label>
+               <select id="conference-select" onchange="convert()">
+               <option value="CDC">CDC</option>
+               <option value="ICRA">ICRA</option>
+               <option value="NeurIPS">NeurIPS</option>
+               </select>
+            </div>
+            <div class="dropdown-container">
+               <label for="year-select">Select a year:</label>
+               <select id="year-select" onchange="convert()">
+               <option value="2016">2016</option>
+               <option value="2017">2017</option>
+               <option value="2018">2018</option>
+               <option value="2019">2019</option>
+               <option value="2020">2020</option>
+               <option value="2021">2021</option>
+               </select>
+            </div>
+         </div>
+
+         <br>
+      
+         <div id="container"></div>
+         
+      </div>
+   </div>
+
+   <button id="back-to-top-button" onclick="scrollToTop()" style="display: none;">Back to Top</button>
+   <script src="assets/js/scrollToTop.js"></script>
+
+</body>
+</html>
