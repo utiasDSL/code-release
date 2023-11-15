@@ -13,7 +13,7 @@ function convert() {
   let jsonFile = conference + "/" + year + "_DATA.json";
 
   // Ignore these columns to render the table
-  let coltoIgnore = ["Keywords or Approach", "Conference", "Year", "Benchmark Setup", "Experimental Results", "Keywords", "Benchmarks", "Number", "Unnamed: 11"];
+  let coltoIgnore = ["Keywords or Approach", "Conference", "Year", "Benchmark Setup", "Experimental Results", "Keywords", "Benchmarks", "Number", "Unnamed: 11", "First and Last Author Affiliations", "Authors"];
 
   // Fetch the JSON data from the file
   fetch(jsonFile)
