@@ -1,6 +1,6 @@
 # code-release
 
-This repository contains all the data and plotting scripts required to reproduce the plots in our paper ["What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"](https://arxiv.org/abs/2308.10008)
+This repository contains all the data and plotting scripts required to reproduce the plots in our paper ["What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"](https://ieeexplore.ieee.org/document/10621946). The preprint is available [here]((https://arxiv.org/abs/2308.10008)).
 
 ## Installation
 
@@ -55,18 +55,18 @@ Our determination of available open-source code for publications is not perfect.
 
 ## Citation
 
-Please cite our work [(link)](https://arxiv.org/abs/2308.10008) as:
+Please cite our work [(paper)](https://ieeexplore.ieee.org/document/10621946) or [(preprint)](https://arxiv.org/abs/2308.10008) as:
 
 ```bibtex
-@INPROCEEDINGS{oscrelease2023,
-      title={What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities}, 
-      author={Siqi Zhou and Lukas Brunke and Allen Tao and Adam W. Hall and Federico Pizarro Bejarano and Jacopo Panerati and Angela P. Schoellig},
-      booktitle={TBD},
-      year={2023},
-      volume={},
-      number={},
-      pages={},
-      doi={}
+@ARTICLE{oscrelease2024,
+      author={Zhou, Siqi and Brunke, Lukas and Tao, Allen and Hall, Adam W. and Bejarano, Federico Pizarro and Panerati, Jacopo and Schoellig, Angela P.},
+      journal={IEEE Control Systems Magazine}, 
+      title={What Is the Impact of Releasing Code With Publications? Statistics from the Machine Learning, Robotics, and Control Communities}, 
+      year={2024},
+      volume={44},
+      number={4},
+      pages={38-46},
+      doi={10.1109/MCS.2024.3402888}
 }
 ```
 
