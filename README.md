@@ -1,6 +1,6 @@
 # code-release
 
-This repository contains all the data and plotting scripts required to reproduce the plots in our paper ["What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities"](https://ieeexplore.ieee.org/document/10621946). The preprint is available [here]((https://arxiv.org/abs/2308.10008)).
+This repository contains all the data and plotting scripts required to reproduce the plots in our paper ["What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities."](https://ieeexplore.ieee.org/document/10621946) The preprint is available [here](https://arxiv.org/abs/2308.10008).
 
 ## Installation
 
